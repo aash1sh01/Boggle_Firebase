@@ -1,11 +1,10 @@
 .Toggle-game-state {
-    text-align: center;
-    margin-top: -50pt;
-    margin-bottom: 25pt;
-  }
-  
-  .Input-select-size {
-    margin-top: -28.4pt;
-    margin-left: 200pt;
-    margin-bottom: 25pt;
-  }
+  text-align: center;
+  margin: auto;
+}
+
+.Input-select-size {
+  margin-top: -28.4pt;
+  margin-left: 200pt;
+  margin-bottom: 25pt;
+}

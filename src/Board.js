@@ -8,8 +8,8 @@ function Board({board}) {
     function tile(id, letter) {
       return(
         <Grid key={id} item xs={1} className="Tile">
-          <Paper elevation={4}>
-           {letter}
+          <Paper elevation={4} color="red">
+           {letter.toUpperCase()}
           </Paper>
         </Grid>);
     }
