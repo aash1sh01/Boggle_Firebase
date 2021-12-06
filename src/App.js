@@ -35,7 +35,8 @@ function App() {
   // When a new game is started, generate a new random grid and reset solutions
   useEffect(() => {
     if (gameState === GAME_STATE.IN_PROGRESS) {
-      setGrid(RandomGrid(size));
+      if(size !== -11111)  // if Grid is not loaded from firestore
+          setGrid(RandomGrid(size));
       setFoundSolutions([]);
     }
   }, [gameState, size]);
